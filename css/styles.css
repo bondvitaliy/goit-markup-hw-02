@@ -1,23 +1,35 @@
+:root {
+	--brand-color: #2196f3;
+	--bg-main-color: #ffffff;
+	--bg-add-color: #2f303a;
+	--color-hd: #212121;
+	--color-add-txt: #757575;
+}
+
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", "Raleway", sans-serif;
 	color: #212121;
 }
 
 .link-nav:hover,
 .link-nav:focus {
-	color: #2196f3;
+	color: var(--brand-color);
 	border: 1px solid #000000;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link-contact:hover,
 .link-contact:focus {
-	color: #2196f3;
+	color: var(--brand-color);
 }
 
-.button:hover,
-.button:focus {
-	background: #2196f3;
+.button-filter:hover,
+.button-filter:focus {
+	background: var(--brand-color);
+}
+
+.button-filter:active {
+	color: var(--bg-main-color);
 }
 
 .link-contact {
@@ -26,10 +38,11 @@ body {
 
 .link-map {
 	color: #ffffff;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footer {
-	background-color: #2f303a;
+	background-color: var(--bg-add-color);
 }
 
 .logo {
@@ -41,7 +54,7 @@ body {
 }
 
 .logo-start {
-	color: #2196f3;
+	color: var(--brand-color);
 }
 
 .logo-end {
@@ -49,11 +62,11 @@ body {
 }
 
 .header {
-	background: #ffffff;
+	background: var(--bg-main-color);
 }
 
 .hero {
-	background: #2f303a;
+	background: var(--bg-add-color);
 }
 
 .index-hero {
@@ -61,11 +74,55 @@ body {
 }
 
 .button-hero {
-	background: #2196f3;
+	background: var(--brand-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
 
 .button-hero:active {
 	background: #188ce8;
+}
+
+.about {
+	background: var(--bg-main-color);
+}
+
+.about-heading {
+	color: var(--color-hd);
+}
+
+.about-text {
+	color: var(--color-add-txt);
+}
+
+.team {
+	background: #f5f4fa;
+}
+
+.team-heading {
+	color: var(--color-hd);
+}
+
+.team-heading-member {
+	color: var(--color-hd);
+}
+
+.team-text {
+	color: var(--color-add-txt);
+}
+
+.list {
+	list-style: none;
+}
+
+.portfolio {
+	background: var(--bg-main-color);
+}
+
+.portfolio-heading {
+	color: var(--color-hd);
+}
+
+.portfolio-text {
+	color: var(--color-add-txt);
 }
