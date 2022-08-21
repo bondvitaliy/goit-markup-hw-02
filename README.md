@@ -1,2 +1,3 @@
 # goit-markup-hw-02
-Домашня робота #2 - Робота зі стилями
+
+https://bondvitaliy.github.io/goit-markup-hw-02/
