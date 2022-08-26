@@ -53,6 +53,7 @@ body {
 
 .link-contact {
 	color: var(--color-add-txt);
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
